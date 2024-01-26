@@ -1,0 +1,109 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/html">
+<style>
+
+    form
+    {
+        margin: auto;
+        background-color:blue;
+    }
+    @keyframes example
+    {
+        0%   {background-color:black;}
+        25%  {background-color:light green;}
+        50%  {background-color:Brown}
+        100% {background-color:black;}
+        125% {background-color:gray;}
+        150% {background-color:yellow;}
+        175% {background-color:black;}
+        200% {background-color:Charcoal grey;}
+
+    }
+    .result
+    {
+        text-align: center;
+        color:white;
+        background-color: darkslateblue;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+    .header
+      {
+        padding: 10px;
+        text-align: center;
+        color:white;
+        background-color: darkslateblue;
+        font-family: 'Times New Roman', Times, serif;
+        animation-name: example;
+        animation-duration: 15s;
+        animation-iteration-count: 100;
+      }
+
+    label
+    {
+        color: WHITE;
+        font-size: 20px;
+    }
+
+    input
+    {
+        border-radius: 10px;
+        width: 200px;
+        height: 25px;
+    }
+    .block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: Pink;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+</style>
+
+<head>
+    <title>Fall Detection System</title>
+</head>
+<body>
+
+
+<div class= "header">
+    <h1><i><b>FINAL   YEAR   PROJECT</i></b>
+    <img class="object-cover object-center rounded" src="https://source.unsplash.com/1200x400/?"></h1>
+</div>
+<div class="alert alert-success alert-dismissible fade show" role="alert">
+  <strong>Developed By Hadi </strong>
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+<div>
+     <link rel="stylesheet" type="text/css" href="../static/index.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="../static/index.js"></script>
+  </head>
+  <body>
+    <div class="App">
+      <header class="App-header">
+        <p><u><b> Falls Monitoring System - YOLO </b></u></p>
+        <!-- <div className="pre_img">
+          <span><img id="imagebox" src="" /></span>
+        </div> -->
+        <!-- <video width="320" height="240" controls>
+          <source src="/static/video_1.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video> -->
+        <button type="button" class="button" id="opencam">Detect Fall </button>
+        <br/>
+</div>
+
+
+    <button type="button" class="block">Contact with us</button>
+
+
+</body>
+</html>
